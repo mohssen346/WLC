@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20221015</CreaDate><CreaTime>21403300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractByMask" Date="20221015" Time="214033">ExtractByMask dem.tif New_Shapefile "C:\Users\irit\Desktop\New Folder\dem.tif"</Process></lineage></DataProperties></Esri></metadata>
