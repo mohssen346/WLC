@@ -31,22 +31,21 @@ pip install pillow numpy gdal matplotlib
 ```
 project/
 │
-├── Final_WLC.ipynb          # Main Jupyter notebook
-├── file/
-│   └── dem.tif              # Input DEM file
+├── WLC.ipynb          # Main Jupyter notebook
+├── dem.tif                  # Input DEM file
 └── README.md                # This file
 ```
 
 ## 💻 Usage
 
 ### 1. Prepare Your Data
-Place your DEM file (`.tif` format) in the `file/` directory:
+Place your DEM file (`.tif` format):
 ```
-file/dem.tif
+dem.tif
 ```
 
 ### 2. Run the Notebook
-Open `Final_WLC.ipynb` in Jupyter Notebook or JupyterLab.
+Open `WLC.ipynb` in Jupyter Notebook or JupyterLab.
 
 ### 3. Input Weights
 When prompted, enter weights for slope and aspect (must sum to 1):
@@ -117,7 +116,7 @@ The Weighted Linear Combination (WLC) approach:
 
 Modify these parameters in the code:
 
-- **DEM File Path**: `fn1 = r'file\dem.tif'`
+- **DEM File Path**: `fn1 = r'dem.tif'`
 - **Array Dimensions**: `range(2925)` and `range(2793)` based on your DEM size
 - **Normalization Range**: `range_to_normalize = (0, 1)`
 
